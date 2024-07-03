@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.home {
+    background: #f4f4f4;
+    padding: 120px 0;
+}
+
+.home img {
+    width: 200px;
+}
+
+.home-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.home-text .btn {
+    background: #00adb5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    background: #fff;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.signature {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.skills {
+    background: #f4f4f4;
+}
+
+.skills h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 10px;
+    background: #00adb5;
+    border-radius: 10px;
+}
+
+.stats {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat {
+    margin: 20px;
+}
+
+.stat h3 {
+    font-size: 2.5em;
+    color: #00adb5;
+}
+
+.stat p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.work {
+    background: #f4f4f4;
+}
+
+.work h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.work-item {
+    margin-bottom: 20px;
+}
+
+.work-item img {
+    max-width: 100%;
+}
+
+.process {
+    background: #fff;
+}
+
+.process h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.process p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.process img {
+    max-width: 100%;
+}
+
+.services {
+    background: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    flex: 1 1 30%;
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    line-height: 1.6;
+}
+
+.testimonials {
+    background: #fff;
+}
+
+.testimonials blockquote {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.testimonials footer {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.contact {
+    background: #f4f4f4;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.contact p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #00adb5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .contact-info,
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: #00adb5;
+    text-decoration: none;
+    margin: 0 10px;
+}
